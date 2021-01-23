@@ -1,0 +1,45 @@
+@import "../../style/color.scss";
+
+.Stepper {
+    display: flex;
+}
+
+.Stepper--input {
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid $color-grey88;
+    border-right: none;
+    
+}
+
+.Stepper--button-arrow-up, .Stepper--button-arrow-down {
+    cursor: pointer;
+    width: 25px;
+    height: 20px;
+    box-sizing: border-box;
+    background: url(../../images/stepper-arrows.png);
+    border: 1px solid $color-grey88;
+    &:first-child {
+        border-bottom: none;
+    }
+    &:hover {
+        background-color: $color-grey;
+    }
+    
+}
+
+.Stepper--button-arrow-up {
+    background-position: top -1px right 52px;
+    &:hover {
+        background-position: top -1px right 25px;
+    }
+}
+
+.Stepper--button-arrow-down {
+    background-position: top 20px right 52px;
+    &:hover {
+        background-position: top 20px right 25px;
+    }
+}
