@@ -1,0 +1,16 @@
+@import "../../style/fonts.scss";
+@import "../../style/color.scss";
+
+.Tags {
+    &:first-child {
+        @include fonts(13px,16px,700,$color-darkgrey);
+    }
+}
+
+.Tags--tag {
+    @include fonts(12px,14px,normal,$color-grey);
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
