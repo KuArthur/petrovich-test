@@ -1,0 +1,14 @@
+.Photo {
+    max-width: 160px;
+    max-height: 160px;
+    box-sizing: border-box;
+}
+
+.Photo--link {
+    cursor: pointer;
+}
+
+.Photo--img {
+    width: 100%;
+    height: -webkit-fill-available;
+}

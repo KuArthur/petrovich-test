@@ -1,0 +1,10 @@
+@import "../../style/fonts.scss";
+@import "../../style/color.scss";
+
+.Description {
+    @include fonts(14px,22px,700,$color-black);
+    text-decoration: none;
+    &:hover {
+        text-decoration:underline;
+    }
+}
