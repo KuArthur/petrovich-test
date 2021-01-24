@@ -1,0 +1,28 @@
+@import "../../style/fonts.scss";
+@import "../../style/color.scss";
+
+.Button {
+    cursor: pointer;
+    position: relative;
+    width: 128px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: $color-orange;
+    @include fonts(14px,40px,normal, $color-white);
+    text-transform: uppercase;
+    text-align: center;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 10px;
+        top: 10px;
+        background: url(../../images/el.png);
+        background-position: bottom 85px right 145px;
+    }
+    &:hover {
+        background-color: $color-darkcharcoal;
+    }
+
+}

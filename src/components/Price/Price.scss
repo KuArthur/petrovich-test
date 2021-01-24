@@ -1,0 +1,71 @@
+@import "../../style/color.scss";
+@import "../../style/fonts.scss";
+
+.Price {
+    display: flex;
+    flex-direction: column;
+}
+
+.Price--wrapper {
+    display: flex;
+}
+
+.Price--clubCartText {
+    @include fonts(14px,17px,normal,$color-black);
+    text-align: right;
+    width: 60px;
+    margin-right: 10px;
+
+}
+
+.Price--prices {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Price--price-type-gold {
+    @include fonts(25px,18px,bold,$color-black);
+    margin-bottom: 17px;
+}
+
+.Price--price-type-retail {
+    @include fonts(25px,18px,normal,$color-extralightgrey);
+}
+
+.Price--points {
+    @include fonts(12px,17px,normal,$color-lightgrey);
+}
+
+.Price--units {
+    display:flex;
+}
+
+.Price--unit {
+    cursor: pointer;
+    @include fonts(13px,13px,normal,$color-dimgray);
+    margin-right: 5px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    &:last-child {
+        margin-right: 0;
+    }
+    &-active {
+        background-color: $color-black;
+        color: $color-white;
+        border-bottom: none;
+
+    }
+}
+
+.Price--unitText {
+    margin: 0;
+}
+
+.Price--unit .Price--unitText {
+    border-bottom: 1px dotted $color-dimgray;
+}
+
+.Price--unit-active .Price--unitText {
+    border-bottom: none;
+}

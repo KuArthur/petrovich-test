@@ -12,7 +12,7 @@ export default function Tags(props) {
             <a href = "#" className = {cn("Tags--tag")}>{el}</a>
         )
     });
-    console.log(tags);
+
     return (
         <div className = {cn("Tags")}>
             <span>Могут понадобиться: </span>
