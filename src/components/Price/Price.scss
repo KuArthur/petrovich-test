@@ -72,3 +72,10 @@
 .Price--unit-active .Price--unitText {
     border-bottom: none;
 }
+
+@media(max-width: 767px) {
+    .Price--points {
+        display: none;
+    }
+
+}

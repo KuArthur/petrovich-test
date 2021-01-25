@@ -8,7 +8,7 @@
 
 .Product {
     display: flex;
-    flex-direction: row-reverse;
+    // flex-direction: row-reverse;
     max-width: 1000px;
     width: 99%;
     box-sizing: border-box;
@@ -28,6 +28,7 @@
     align-items: top;
     width: 220px;
     height: 220px;
+    flex-direction: row-reverse;
 }
 
 .Product--content {
@@ -64,8 +65,38 @@
 }
 
 @media(max-width: 767px) {
+    .Product {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 320px;
+    }
+
+    .Product--photo {
+        justify-content: center;
+    }
+
+    .Product--content {
+        padding: 0;
+    }
+
     .Product--tags {
         display: none;
+    }
+
+    .Product--secondRow {
+        flex-direction: column;
+        // align-items: center;
+    }
+    .Product--tooltip {
+        display: none;
+    }
+    
+    .Product--buttons {
+        margin: 10px 0 0 auto;
+        // justify-content: flex-end;
+
+        
     }
 
 }

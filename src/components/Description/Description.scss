@@ -14,3 +14,10 @@
         text-decoration:underline;
     }
 }
+
+@media(max-width: 767px) {
+    .Description--title {
+        @include fonts(14px,20px,700,$color-black);
+    }
+
+}

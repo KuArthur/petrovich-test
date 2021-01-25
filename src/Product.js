@@ -21,7 +21,9 @@ function Product() {
   PRODUCTS.forEach((product,i) => {
     products.push(
       <div key = {product.productId + i} className = "Product">
-        
+        <div className = "Product--photo">
+          <Photo img_url = {product.primaryImageUrl} />
+        </div>
         <div className = "Product--content">
           <div className = "Product--firstRow">
             <Code code = {product.code} />
@@ -33,7 +35,6 @@ function Product() {
               <div className = "Product--tags">
                 <Tags tags = {product.assocProducts} />
               </div>
-              
             </div>
             <div className = "Product--price">
               <Price  goldPriceAlt = {product.priceGoldAlt}
@@ -51,9 +52,6 @@ function Product() {
               </div>
             </div>
           </div>
-        </div>
-        <div className = "Product--photo">
-          <Photo img_url = {product.primaryImageUrl} />
         </div>
     </div>
     )
