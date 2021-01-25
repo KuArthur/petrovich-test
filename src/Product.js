@@ -14,7 +14,7 @@ import Code from "./components/Code/Code";
 
 // img_url = PRODUCTS[].primaryImageUrl
 
-function Product() {
+export default function Product() {
 
   const products = [];
 
@@ -65,5 +65,3 @@ function Product() {
     </div>
   )
 }
-
-export default Product;
