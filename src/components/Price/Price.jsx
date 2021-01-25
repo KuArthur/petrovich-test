@@ -6,6 +6,7 @@ import "./Price.scss";
 
 export default function Price(props) {
     const [index,setIndex] = useState(0);
+    
     const goldPrice = props.goldPrice;
     const goldPriceAlt = Math.floor(props.goldPriceAlt * 100) / 100;
     const retailPrice = props.retailPrice;
@@ -18,13 +19,18 @@ export default function Price(props) {
         setIndex(index);
     }
 
-    const unitsName = ["За м. кв.", "За упаковку"];
+    let unitsName = [];
+    if(props.unit === "упак.") {
+        unitsName = ["За м. кв.", "За упаковку"]
+    } else unitsName = ["За шт."]
+    
 
     const units = unitsName.map((el,i) => {
         return(
+            
         <div key = {i} 
              className = {cn("Price--unit", index === i ? "Price--unit-active" : '')} onClick = {() => handleClickUnits(i)}>
-                    <p className = "Price--unitText">{el}</p>
+                <p className = "Price--unitText">{el}</p>
         </div>
         )
     })

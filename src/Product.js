@@ -41,6 +41,7 @@ function Product() {
                       retailPriceAlt = {product.priceRetailAlt}
                       goldPrice = {product.priceGold}
                       retailPrice = {product.priceRetail}
+                      unit = {product.unit}
                       points = {231.75}
               />
               <div className = "Product--tooltip">
