@@ -6,10 +6,13 @@ import "./Price.scss";
 
 export default function Price(props) {
     const [index,setIndex] = useState(0);
-    const goldPrice = Math.floor(props.goldPrice * 100) / 100;
-    const retailPrice = Math.floor(props.retailPrice * 100) / 100;
+    const goldPrice = props.goldPrice;
+    const goldPriceAlt = Math.floor(props.goldPriceAlt * 100) / 100;
+    const retailPrice = props.retailPrice;
+    const retailPriceAlt = Math.floor(props.retailPriceAlt * 100) / 100;
     
-    const price = index === 0 ? goldPrice : retailPrice;
+    const goldPriceSwitch = index === 0 ? goldPriceAlt : goldPrice;
+    const retailPriceSwitch = index === 0 ? retailPriceAlt : retailPrice;
 
     const handleClickUnits = index => {
         setIndex(index);
@@ -31,8 +34,8 @@ export default function Price(props) {
             <div className = "Price--wrapper">
                 <span className = "Price--clubCartText">По карте клуба</span>
                 <div className = "Price--prices">
-                    <span className = "Price--price-type-gold">{price} &#8381;</span> {/*svg ruble*/}
-                    <span className = "Price--price-type-retail">{price} &#8381;</span>
+                    <span className = "Price--price-type-gold">{goldPriceSwitch} &#8381;</span> {/*svg ruble*/}
+                    <span className = "Price--price-type-retail">{retailPriceSwitch} &#8381;</span>
                 </div>
             </div>
         <span className = "Price--points">Можно купить за {props.points} балла</span>

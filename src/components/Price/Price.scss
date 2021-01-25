@@ -4,6 +4,7 @@
 .Price {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
 .Price--wrapper {
@@ -14,7 +15,7 @@
     @include fonts(14px,17px,normal,$color-black);
     text-align: right;
     width: 60px;
-    margin-right: 10px;
+    margin-right: 25px;
 
 }
 
@@ -22,11 +23,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: 14px;
+    margin-bottom: 8px;
 }
 
 .Price--price-type-gold {
     @include fonts(25px,18px,bold,$color-black);
-    margin-bottom: 17px;
+    margin-bottom: 14px;
 }
 
 .Price--price-type-retail {

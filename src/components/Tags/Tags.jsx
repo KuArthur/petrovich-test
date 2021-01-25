@@ -7,15 +7,15 @@ import "./Tags.scss";
 export default function Tags(props) {
     let tags = [];
     
-    props.tags.split("\n").forEach(el => {
+    props.tags.split("\n").forEach((el,i) => {
         tags.push(
-            <a href = "#" className = {cn("Tags--tag")}>{el}</a>
+            <a key = {"tags"+i} href = "#" className = {cn("Tags--tag")}>{el}</a>
         )
     });
 
     return (
         <div className = {cn("Tags")}>
-            <span>Могут понадобиться: </span>
+            <span className = {cn("Tags--listHead")}>Могут понадобиться: </span>
             {tags}
         </div>
     )

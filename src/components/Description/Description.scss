@@ -4,28 +4,13 @@
 .Description {
     display: flex;
     flex-direction: column;
-}
-
-.Description--code {
-    @include fonts(12px,1.4,normal,$color-grey);
+    max-width: 350px;
 }
 
 .Description--title {
-    @include fonts(14px,22px,700,$color-black);
+    @include fonts(16px,24px,700,$color-black);
     text-decoration: none;
     &:hover {
         text-decoration:underline;
-    }
-}
-
-.Description--tags {
-    @include fonts(13px,16px,700,$color-darkgrey);
-}
-
-.Description--tag {
-    @include fonts(12px,14px,normal,$color-grey);
-    text-decoration: none;
-    &:hover {
-        text-decoration: underline;
     }
 }

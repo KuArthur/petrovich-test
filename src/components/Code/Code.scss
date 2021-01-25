@@ -1,0 +1,6 @@
+@import "../../style/fonts.scss";
+@import "../../style/color.scss";
+
+.Code {
+    @include fonts(12px,1.4,normal,$color-grey);
+}

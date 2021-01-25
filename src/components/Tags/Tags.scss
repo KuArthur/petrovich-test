@@ -2,9 +2,11 @@
 @import "../../style/color.scss";
 
 .Tags {
-    &:first-child {
-        @include fonts(13px,16px,700,$color-darkgrey);
-    }
+    max-width: 500px;
+}
+
+.Tags--listHead {
+    @include fonts(13px,16px,700,$color-darkgrey);
 }
 
 .Tags--tag {
