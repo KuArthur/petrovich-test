@@ -23,7 +23,6 @@ export default function Price(props) {
     if(props.unit === "упак.") {
         unitsName = ["За м. кв.", "За упаковку"]
     } else unitsName = ["За шт."]
-    
 
     const units = unitsName.map((el,i) => {
         return(
