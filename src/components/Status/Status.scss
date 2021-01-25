@@ -1,0 +1,18 @@
+@import "../../style/color.scss";
+@import "../../style/fonts.scss";
+
+.Status {
+    @include fonts(14px,1.4,normal,$color-black);
+    text-decoration: none;
+    
+}
+
+.Status-active-inStock {
+    color: $color-green;
+    border-bottom: 1px dotted $color-green;
+}
+
+.Status-active-outStock {
+    color: $color-red;
+    border-bottom: 1px dotted $color-red;
+}

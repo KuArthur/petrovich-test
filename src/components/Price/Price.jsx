@@ -6,10 +6,10 @@ import "./Price.scss";
 
 export default function Price(props) {
     const [index,setIndex] = useState(0);
+    const goldPrice = Math.floor(props.goldPrice * 100) / 100;
+    const retailPrice = Math.floor(props.retailPrice * 100) / 100;
     
-    const price = index === 0 ? Math.floor(props.goldPrice * 100) / 100 : Math.floor(props.retailPrice * 100) / 100 ;
-    // const retailPrice = Math.floor(props.retailPrice * 100) / 100;
-    // const points = Math.floor(props.retailPrice * 100) / 100;
+    const price = index === 0 ? goldPrice : retailPrice;
 
     const handleClickUnits = index => {
         setIndex(index);
