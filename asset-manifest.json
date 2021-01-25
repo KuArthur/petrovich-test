@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/petrovich-test/static/css/main.2c7840aa.chunk.css",
-    "main.js": "/petrovich-test/static/js/main.c6fa0bda.chunk.js",
-    "main.js.map": "/petrovich-test/static/js/main.c6fa0bda.chunk.js.map",
+    "main.css": "/petrovich-test/static/css/main.5dc0aaaf.chunk.css",
+    "main.js": "/petrovich-test/static/js/main.8a9c4509.chunk.js",
+    "main.js.map": "/petrovich-test/static/js/main.8a9c4509.chunk.js.map",
     "runtime-main.js": "/petrovich-test/static/js/runtime-main.f4de445a.js",
     "runtime-main.js.map": "/petrovich-test/static/js/runtime-main.f4de445a.js.map",
-    "static/js/2.a94bba28.chunk.js": "/petrovich-test/static/js/2.a94bba28.chunk.js",
-    "static/js/2.a94bba28.chunk.js.map": "/petrovich-test/static/js/2.a94bba28.chunk.js.map",
+    "static/js/2.e8a084c9.chunk.js": "/petrovich-test/static/js/2.e8a084c9.chunk.js",
+    "static/js/2.e8a084c9.chunk.js.map": "/petrovich-test/static/js/2.e8a084c9.chunk.js.map",
     "index.html": "/petrovich-test/index.html",
-    "static/css/main.2c7840aa.chunk.css.map": "/petrovich-test/static/css/main.2c7840aa.chunk.css.map",
-    "static/js/2.a94bba28.chunk.js.LICENSE.txt": "/petrovich-test/static/js/2.a94bba28.chunk.js.LICENSE.txt",
+    "static/css/main.5dc0aaaf.chunk.css.map": "/petrovich-test/static/css/main.5dc0aaaf.chunk.css.map",
+    "static/js/2.e8a084c9.chunk.js.LICENSE.txt": "/petrovich-test/static/js/2.e8a084c9.chunk.js.LICENSE.txt",
     "static/media/Button.scss": "/petrovich-test/static/media/el.4782809f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f4de445a.js",
-    "static/js/2.a94bba28.chunk.js",
-    "static/css/main.2c7840aa.chunk.css",
-    "static/js/main.c6fa0bda.chunk.js"
+    "static/js/2.e8a084c9.chunk.js",
+    "static/css/main.5dc0aaaf.chunk.css",
+    "static/js/main.8a9c4509.chunk.js"
   ]
 }
