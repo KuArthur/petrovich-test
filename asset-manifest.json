@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/petrovich-test/static/css/main.5dc0aaaf.chunk.css",
+    "main.css": "/petrovich-test/static/css/main.4de02d7e.chunk.css",
     "main.js": "/petrovich-test/static/js/main.8a9c4509.chunk.js",
     "main.js.map": "/petrovich-test/static/js/main.8a9c4509.chunk.js.map",
     "runtime-main.js": "/petrovich-test/static/js/runtime-main.f4de445a.js",
@@ -8,14 +8,14 @@
     "static/js/2.e8a084c9.chunk.js": "/petrovich-test/static/js/2.e8a084c9.chunk.js",
     "static/js/2.e8a084c9.chunk.js.map": "/petrovich-test/static/js/2.e8a084c9.chunk.js.map",
     "index.html": "/petrovich-test/index.html",
-    "static/css/main.5dc0aaaf.chunk.css.map": "/petrovich-test/static/css/main.5dc0aaaf.chunk.css.map",
+    "static/css/main.4de02d7e.chunk.css.map": "/petrovich-test/static/css/main.4de02d7e.chunk.css.map",
     "static/js/2.e8a084c9.chunk.js.LICENSE.txt": "/petrovich-test/static/js/2.e8a084c9.chunk.js.LICENSE.txt",
     "static/media/Button.scss": "/petrovich-test/static/media/el.4782809f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f4de445a.js",
     "static/js/2.e8a084c9.chunk.js",
-    "static/css/main.5dc0aaaf.chunk.css",
+    "static/css/main.4de02d7e.chunk.css",
     "static/js/main.8a9c4509.chunk.js"
   ]
 }
